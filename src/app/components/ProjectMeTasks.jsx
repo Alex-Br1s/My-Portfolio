@@ -16,6 +16,7 @@ import {AiFillHtml5} from 'react-icons/ai'
 import {BiLogoPostgresql} from 'react-icons/bi'
 //?Extra Icons
 import { AiFillGithub } from "react-icons/ai";
+import { FaLink } from 'react-icons/fa'
 import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs'
 
 const ProjectMeTasks = () => {
@@ -63,7 +64,6 @@ const ProjectMeTasks = () => {
       <h4 className='pl-3 text-2xl text-violetname'>meTasks</h4>
       <p className='text-sm pl-3 text-violetmorelow'>
       Un web que te permite crear tus propias tareas, con la capacidad de un conjunto completo de acciones CRUD (Crear, Leer, Actualizar y Eliminar). <span className='text-celestelastname'>Esto significa que tendrás las características para agregar, consultar, modificar y eliminar tareas según tus necesidades.</span></p>
-
     <div className='flex justify-center -mt-1'>
       <button className='text-2xl m-1 text-orange-600'>{<AiFillHtml5 className='cursor-default' />}</button>
       <button className='text-2xl m-1 text-yellow-500'>{<BiLogoJavascript className='cursor-default' />}</button>
@@ -75,6 +75,7 @@ const ProjectMeTasks = () => {
    
      <div className='flex justify-center '>
       <a href='https://github.com/Alex-Br1s/meTasks' target='_blank' className='text-2xl mx-1 text-white'>{<AiFillGithub />}</a>
+      <a href='https://my-new-tasks.vercel.app/' target='_blank' className='text-2xl mx-1 text-gray-500'>{<FaLink />}</a>
     </div>
     </div>
    )
