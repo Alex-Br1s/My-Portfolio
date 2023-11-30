@@ -11,6 +11,7 @@ const kanit = Kanit({
 })
 
 
+
 export default function RootLayout({ children }) {
   const [windowWidth, setWindowWidth] = useState(0); // Inicializa con un valor predeterminado
 

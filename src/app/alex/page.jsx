@@ -11,8 +11,8 @@ const Alexander = () => {
       <section className='mx-2'>
         <h1 className='mb-10 text-6xl'><span className='text-violetname'>ALEXANDER</span> <span className='text-celestelastname'>BRIS</span></h1>
         <p className='mb-5 text-violetmorelow'>BIENVENIDX A MI PORTAFOLIO COMO FULL-STACK DEVELOPER</p>
-        <p className='mb-10 text-violetmorelow'>Contactame <a href='mailto:hola21@gmail.com' className='text-celestelastname'>alexbris21@gmail.com</a></p>
-        <Link target='_blank' href="/CV Alexander Emanuel Bris.pdf" download>
+        <p className='mb-10 text-violetmorelow'>Contactame <a href='mailto:alexxwebb18@gmail.com' className='text-celestelastname'>alexxwebb18@gmail.com</a></p>
+        <Link target='_blank' href="/CV-Alexander Emanuel Bris.pdf" download>
           <button className="border-2 rounded-lg p-2 bg-button text-white mb-10">
             Descarga mi CV
           </button>

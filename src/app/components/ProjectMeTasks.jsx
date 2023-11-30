@@ -61,7 +61,7 @@ const ProjectMeTasks = () => {
       </div>
     </div>
 
-      <h4 className='pl-3 text-2xl text-violetname'>meTasks</h4>
+      <h4 className='pl-3 text-2xl text-violetname'>My-Tasks</h4>
       <p className='text-sm pl-3 text-violetmorelow'>
       Un web que te permite crear tus propias tareas, con la capacidad de un conjunto completo de acciones CRUD (Crear, Leer, Actualizar y Eliminar). <span className='text-celestelastname'>Esto significa que tendrás las características para agregar, consultar, modificar y eliminar tareas según tus necesidades.</span></p>
     <div className='flex justify-center -mt-1'>
